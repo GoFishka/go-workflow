@@ -52,4 +52,4 @@ jobs:
       # Используется действие "golangci/golangci-lint-action@v3", которое запускает линтер. Он проверит код на соответствие стилю и отсутствие логических ошибок
       - uses: golangci/golangci-lint-action@v3
         with:
-            version: v1.65.0
+            version: latest
