@@ -1,11 +1,17 @@
 package main
 
+/*
 import (
     "fmt"
     "sync"
 )
+/**/
 
 func main() {
+
+}
+
+/*func main() {
     var wg sync.WaitGroup
     wg.Add(5)
 
@@ -18,6 +24,7 @@ func main() {
 
     wg.Wait()
 }
+/**/
 
 func MaxInt(a, b int) int {
     if a >= b {
